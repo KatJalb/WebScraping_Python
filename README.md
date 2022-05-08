@@ -79,7 +79,7 @@ Give credit here.
 
 
 ## Contact
-Created by [Kasia]<https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/> and [Monika]<m.kaczan2@student.uw.edu.pl> - feel free to contact us!
+Created by [Kasia](<https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/>) and [Monika](<m.kaczan2@student.uw.edu.pl>) - feel free to contact us!
 
 
 <!-- Optional -->
