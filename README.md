@@ -41,11 +41,11 @@ $ python3 *.py
 
 Scrapy:
  'project_scrapy' top level directory
- - First step (creating link_lists.csv):
+ 1. First step (creating link_lists.csv):
 ```
 $ scrapy crawl link_lists -o link_lists.csv
 ```
- - Second step (creating books.csv )
+ 2. Second step (creating books.csv )
 ```
 $ scrapy crawl books -o books.csv
 ```
