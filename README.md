@@ -14,19 +14,19 @@ Firstly, we access the main site with a list of books. There we can find links t
 
 ## Methods used for scrapping
 
-# Beautiful Soup scrapper
-bs.find_all
-bs.find
-re.findall
+Beautiful Soup scrapper
+- bs.find_all
+- bs.find
+- re.findall
 
-# Scrapy scrapper
-response.xpath().getall()
-response.xpath().re()
+Scrapy scrapper
+- response.xpath().getall()
+- response.xpath().re()
 
-# Selenium scraper
-webdriver.Firefox
-driver.find_elements(By.XPATH,)
-re.findall
+Selenium scraper
+- webdriver.Firefox
+- driver.find_elements(By.XPATH,)
+- re.findall
 
 
 ## Acknowledgements
