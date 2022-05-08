@@ -35,15 +35,18 @@ To run this project from command-line, go to the correct directory and use follo
 
 Beautiful Soup:
 - selenium directory
-...
+```
 $ scrapy crawl link_lists -o link_lists.csv
-...
-...
+```
+```
 $ scrapy crawl books -o books.csv
-...
+```
 
 Scrapy:
 - project_scrapy top level directory
+```
+$ python3 Sel.py
+```
 
 Selenium:
 - selenium directory
