@@ -34,22 +34,27 @@ Selenium scraper
 To run this project from command-line, go to the correct directory and use following commands:
 
 Beautiful Soup:
-- selenium directory
+ 'soup' directory
+```
+$ python3 *.py
+```
+
+Scrapy:
+ 'project_scrapy' top level directory
+ - First step (creating link_lists.csv):
 ```
 $ scrapy crawl link_lists -o link_lists.csv
 ```
+ - Second step (creating books.csv )
 ```
 $ scrapy crawl books -o books.csv
 ```
 
-Scrapy:
-- project_scrapy top level directory
+Selenium:
+ 'selenium' directory
 ```
 $ python3 Sel.py
 ```
-
-Selenium:
-- selenium directory
 
 
 ## Acknowledgements
