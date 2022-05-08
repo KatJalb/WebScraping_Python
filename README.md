@@ -1,90 +1,28 @@
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+# Webscraping books data from Goodreads
+> The main aim of this project is to scrap data on the most upvoted books on the goodreads website. We use three different libraries/frameworks in Python: Beautiful Soup, Scrapy and Selenium and compare their performance.
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+## Technologies used
+- Python - version 3.8.10
+- Beautiful Soup
+- Scrapy - version 3.0
+- Selenium
+
+## Beautiful Soup scrapper
+Firstly, we access the main site with a list of books. There we can find links to individual book pages. We scrap those pages using bs.find_all command. We store them in a list and then access them one by one. From each book page, we scrap its title, author, main genre, year, publisher, number of pages, number of ratings and average rating using bs.find command and regular expressions. We store this information in a dictionary and then add it to the dataframe as a new row. 
 
 
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Scrapy scrapper
+- Opis - 
 
 
-## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
-
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+## Selenium scraper
+- Opis -
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
+This project was made as a part of Webscrapping and Social Media Scraping course at Faculty of Economic Sciences, University of Warsaw. 
 
 ## Contact
-Created by [Kasia](mailto:https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/) and [Monika](mailto:m.kaczan2@student.uw.edu.pl). Please feel free to mail us!
+Created by [Kasia](<https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/>) and [Monika](<m.kaczan2@student.uw.edu.pl>) - feel free to contact us!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
 
