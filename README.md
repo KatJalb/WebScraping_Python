@@ -79,7 +79,7 @@ Give credit here.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Kasia](https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/) i [Monika](m.kaczan2@student.uw.edu.pl) - feel free to contact me!
 
 
 <!-- Optional -->
