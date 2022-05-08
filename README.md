@@ -20,6 +20,9 @@ Beautiful Soup scrapper
 - re.findall
 
 Scrapy scrapper
+- scrapy.Item
+- scrapy.Field
+- scrapy.Spider
 - response.xpath().getall()
 - response.xpath().re()
 
