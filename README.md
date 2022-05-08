@@ -23,6 +23,6 @@ Firstly, we access the main site with a list of books. There we can find links t
 This project was made as a part of Webscrapping and Social Media Scraping course at Faculty of Economic Sciences, University of Warsaw. 
 
 ## Contact
-Created by [Kasia](<https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/>) and [Monika](<m.kaczan2@student.uw.edu.pl>) - feel free to contact us!
+Created by [Kasia](mailto:https://www.katarzyna.jalbrzykowska@student.uw.edu.pl/) and [Monika](mailto:m.kaczan2@student.uw.edu.pl) - feel free to contact us!
 
 
