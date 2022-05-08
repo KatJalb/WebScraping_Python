@@ -7,16 +7,26 @@
 - Scrapy - version 3.0
 - Selenium
 
-## Beautiful Soup scrapper
-Firstly, we access the main site with a list of books. There we can find links to individual book pages. We scrap those pages using bs.find_all command. We store them in a list and then access them one by one. From each book page, we scrap its title, author, main genre, year, publisher, number of pages, number of ratings and average rating using bs.find command and regular expressions. We store this information in a dictionary and then add it to the dataframe as a new row. 
+## Description of our scraper mechanics
+
+Firstly, we access the main site with a list of books. There we can find links to individual book pages. The complete list is divided into 100 pages, which contains 100 books. Therefore, we dedided to limit our scrapping to the first ... pages. The variable 'pages' is defined at the begining of each code. We store the links in a list and then access them one by one. From each book page, we scrap its title, author, main genre, year, publisher, number of pages, number of ratings and average rating using commands and regular expressions. We store this information in a dictionary and then add it to the dataframe as a new row or export the results to the external *.csv file (scrapy). 
 
 
-## Scrapy scrapper
-- Opis - 
+## Methods used for scrapping
 
+# Beautiful Soup scrapper
+bs.find_all
+bs.find
+re.findall
 
-## Selenium scraper
-- Opis -
+# Scrapy scrapper
+response.xpath().getall()
+response.xpath().re()
+
+# Selenium scraper
+webdriver.Firefox
+driver.find_elements(By.XPATH,)
+re.findall
 
 
 ## Acknowledgements
