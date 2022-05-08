@@ -29,6 +29,25 @@ Selenium scraper
 - driver.find_elements(By.XPATH,)
 - re.findall
 
+## Setup
+
+To run this project from command-line, go to the correct directory and use following commands:
+
+Beautiful Soup:
+- selenium directory
+...
+scrapy crawl link_lists -o link_lists.csv
+...
+...
+scrapy crawl books -o books.csv
+...
+
+Scrapy:
+- project_scrapy top level directory
+
+Selenium:
+- selenium directory
+
 
 ## Acknowledgements
 This project was made as a part of Webscrapping and Social Media Scraping course at Faculty of Economic Sciences, University of Warsaw. 
