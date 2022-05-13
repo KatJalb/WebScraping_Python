@@ -36,7 +36,7 @@ To run this project from command-line, go to the correct directory and use follo
 Beautiful Soup:
  'soup' directory
 ```
-$ python3 *.py
+$ python3 project_BS.py
 ```
 
 Scrapy:
@@ -53,7 +53,7 @@ $ scrapy crawl books -o books.csv
 Selenium:
  'selenium' directory
 ```
-$ python3 Sel.py
+$ python3 project_Selenum.py
 ```
 
 
