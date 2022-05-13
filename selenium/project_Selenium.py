@@ -13,7 +13,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 t0 = time.time()
 
 # Defining parameters limiting the number of pages to scrap:
-limit = False
+limit = True
 pages = 3
 
 # Init:
