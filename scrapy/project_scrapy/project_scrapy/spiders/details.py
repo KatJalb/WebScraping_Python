@@ -2,7 +2,7 @@
 import scrapy
 
 #Defining parameters limiting the number of pages to scrap:
-limit=False
+limit=True
 
 # Creating scrapy object - Book - with diffrents to be scrapped
 class Book(scrapy.Item):
