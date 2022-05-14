@@ -17,7 +17,7 @@ begin_time = datetime.datetime.now()
 ######   Additional parameters to specify how many pages to scrap   ######
 
 # Should the number books (each book leading to a separate page with details) be limited to 100?
-limit = False 
+limit = True 
 # How many pages of books (each page is 100 books) to scrap? [Maximum is 100]
 pages = 3
 
