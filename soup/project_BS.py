@@ -17,12 +17,9 @@ begin_time = datetime.datetime.now()
 ######   Additional parameters to specify how many pages to scrap   ######
 
 # Should the number books (each book leading to a separate page with details) be limited to 100?
-limit = True 
+limit = False
 # How many pages of books (each page is 100 books) to scrap? [Maximum is 100]
 pages = 3
-
-if limit == True:
-    pages = 1
 
 ##############################
 
@@ -35,19 +32,22 @@ links = []
 
 # Loop for more than one page of books to scrap
 
-if limit == False:
+for i in range(1, pages + 1):
 
-    for i in range(1, pages + 1):
+    # Accesing the url...
+    html = request.urlopen(url+str(i))
+    bs = BS(html.read(), 'html.parser')
 
-        # Accesing the url...
-        html = request.urlopen(url)
-        bs = BS(html.read(), 'html.parser')
+    # ... and finding all pages of books 
+    tags = bs.find_all('a', {'class': 'bookTitle'})
+    links_i = ['https://www.goodreads.com' + tag['href'] for tag in tags]
+    links = links + links_i
 
-        # ... and finding all pages of books 
-        tags = bs.find_all('a', {'class': 'bookTitle'})
-        links_i = ['https://www.goodreads.com' + tag['href'] for tag in tags]
-        links = links + links_i
+# Limiting the number of pages to scrap
+if limit == True:
+    links = links[0:100]
 
+    
 ##############################
 
 '''
