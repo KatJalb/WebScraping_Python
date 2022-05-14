@@ -42,7 +42,7 @@ d = pd.DataFrame({'title': [], 'author': [], 'year': [], 'publisher': [], 'genre
 
 # Limiting the number of links (books) to scrap
 if limit:
-    books_list = books_links[0:101]
+    books_list = books_links[0:100]
 else:
     books_list = books_links
 
